@@ -13,10 +13,10 @@ public class TennisCoach implements Coach{
         System.out.println(">> TennisCoach: Inside default constructor");
     }
 
-    // define a setter method for injection
+    // define any method name
     @Autowired
-    public void setFortuneService(FortuneService theFortuneService){
-        System.out.println(">> TennisCoach: Inside setFortuneService() method");
+    public void doSomeCrazyStuff(FortuneService theFortuneService){
+        System.out.println(">> TennisCoach: Inside doSomeCrazyStuff() method");
         fortuneService = theFortuneService;
     }
 
